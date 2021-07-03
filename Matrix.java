@@ -143,7 +143,7 @@ public class Matrix {
 		return c;
 	}
 	
-//  prime  Metrix	
+// Prime Number in Mertix
 	
 	static boolean PrimeNumber(int n) {
 		for(int i=2;i<=n/2;i++) {
@@ -152,9 +152,6 @@ public class Matrix {
 		}
 		return true;
 	}
-	
-// Prime Number in Mertix
-	
 	public int CountPrime(int[][] x){
 		int count = 0;
 		for(int i=0;i<=x.length;i++) {
@@ -253,22 +250,4 @@ public class Matrix {
 	   RowReverse(mat);
 	   return mat;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
